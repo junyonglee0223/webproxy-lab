@@ -127,6 +127,20 @@ void doit(int fd)
   }
 }
 
+void doit(int fd){
+    int is_static;
+    struct stat sbuf;
+    char buf[MAXLINE], method[MAXLINE], uri[MAXLINE], version[MAXLINE];
+    char filname[MAXLINE], cgiargs[MAXLINE];
+
+
+    
+
+
+}
+
+
+
 /* read_requesthdrs: 클라이언트가 버퍼 rp에 보낸 나머지 요청 헤더들을 무시한다.(그냥 프린트)*/
 void read_requesthdrs(rio_t *rp)
 {
